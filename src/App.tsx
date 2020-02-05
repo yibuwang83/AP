@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
+import 'semantic-ui-css/semantic.min.css'
+import Logs from './Component/Logs'
 import './App.css';
 
 const App = () => {
@@ -18,6 +20,7 @@ const App = () => {
         >
           Learn React
         </a>
+        <Logs />
       </header>
     </div>
   );
