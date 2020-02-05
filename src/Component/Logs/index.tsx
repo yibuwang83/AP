@@ -1,6 +1,7 @@
 import * as React from 'react';
 import ButtonExampleButton from '../../universal/ButtonExampleButton'
 import { Button, Icon } from 'semantic-ui-react'
+import LogsTable from '../../universal/LogsTable';
 
 export interface ILogsProps {
 }
@@ -8,6 +9,8 @@ export interface ILogsProps {
 export default function Logs(props: ILogsProps) {
     return (
         <div>
+            <LogsTable />
+
             <ButtonExampleButton />
 
             <Button animated>
